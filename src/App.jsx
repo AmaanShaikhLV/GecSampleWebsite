@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import './plugin.css';
+import '../public/plugin.css';
 
 function App() {
   useEffect(() => {
     localStorage.removeItem('entityToken');
     const script = document.createElement('script');
-    script.src = './src/plugin.js';
+    script.src = '/public/plugin.js';
     script.onload = () => {
       window.setToken('40e65b10-1ebe-4da6-8a11-3fab2257a19a');
       console.log('Script loaded');
