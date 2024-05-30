@@ -8,7 +8,7 @@ function App() {
     const script = document.createElement('script');
     script.src = '/plugin.js';
     script.onload = () => {
-      window.setToken('f4cf1287-5d66-41b7-9e24-672b524ca2f4');
+      window.setToken('bb837bd5-8c08-4549-a67e-b3b3ac27e8e1');
       console.log('Script loaded');
     };
 
