@@ -8,7 +8,7 @@ function App() {
     const script = document.createElement('script');
     script.src = '/plugin.js';
     script.onload = () => {
-      window.setToken('bb837bd5-8c08-4549-a67e-b3b3ac27e8e1');
+      window.setToken('40e65b10-1ebe-4da6-8a11-3fab2257a19a');
       console.log('Script loaded');
     };
 
@@ -32,7 +32,7 @@ function App() {
         <main>
           <article>
             <h2>Article Title</h2>
-            <p>Lorem and ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Loremm ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </article>
 
           <article>
